@@ -1,0 +1,27 @@
+{
+  "name"        : "demoMultiparty",
+  "version"     : "0.1.6",
+  "author"      : "Priologic",
+  "description" : "",
+
+  "private"     : true,
+
+  "scripts": {
+    "start"     : "node server.js"
+  },
+
+  "dependencies" : {
+    "easyrtc"   : "*",    
+    "cookie-parser": "*",
+    "body-parser": "*",
+    "express-session": "*",
+    "express"   : "3.7.x",
+    "socket.io" : "0.9.x",
+  },
+
+  "license"     : "BSD2",
+
+  "engines": {
+    "node"      : ">=0.8"
+  }
+}
